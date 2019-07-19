@@ -16,7 +16,7 @@
             <a>Mis tutorías</a>
         </nav>
     </div>
-    <form onsubmit='reservar()' action="misreservas.html">
+    <form id="form" onsubmit='reservar()' action="misreservas.html">
         <p></p>
         <p>Elija momento</p>
         <select id="dia"  onchange="loadPuesto()">
@@ -38,7 +38,8 @@
         <select id="puesto" >
             <option disabled="true" selected="true" value="-----">-----</option>
         </select>
-        <input type="submit" value="Reservar">
+        <p></p>
+        <input id="boton" type="submit" value="Reservar">
     </form>
 </body>
 <!-- The core Firebase JS SDK is always required and must be listed first -->

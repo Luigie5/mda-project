@@ -115,7 +115,7 @@ function reservar() {
         nombre: puesto,
       });
       console.log(user+" user");
-    firebase.database().ref('reservas/'+user+puesto).set({
+    firebase.database().ref('reservas/'+user+puesto+dia+hora).set({
     estado: dia+"-"+hora,
     usuario: user,
     laboratorio: lab,

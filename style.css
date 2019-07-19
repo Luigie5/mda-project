@@ -1,7 +1,42 @@
 h1 {
     color: blueviolet;
+    width:110%;
+  background-color: lightblue;
+  margin-left: -10%;
+  margin-top: -20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
   }
 
 #nav{
+  width:110%;
   float: left;
+  background-color: lightblue;
+  margin-left: -20px;
+  padding-left: 20px;
+  margin-top: -22px;
+}
+#nav a{
+  margin-right: 20px;
+}
+#form{
+  float: initial;
+  width:200px;
+  margin: 0 auto;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+#boton{
+  float: bottom;
+}
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid blue;
 }
